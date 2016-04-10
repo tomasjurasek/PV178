@@ -1,0 +1,16 @@
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\bin\Debug\DAL.dll.config
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\bin\Debug\DAL.dll
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\bin\Debug\DAL.pdb
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\bin\Debug\Riganti.Utils.Infrastructure.Core.dll
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\obj\Debug\DAL.Migrations.Initial.resources
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\obj\Debug\DAL.dll
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\obj\Debug\DAL.pdb
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\obj\Debug\DAL.Migrations.Category.resources
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\obj\Debug\DAL.Migrations.CategoryNew.resources
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\bin\Debug\Riganti.Utils.Infrastructure.Core.pdb
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

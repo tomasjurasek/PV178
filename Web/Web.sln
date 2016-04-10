@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{07FC82C6-6C8A-4F12-9D8C-A040DE488C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{E18D478D-3276-455B-B9C3-CBFE6D561A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{6AFB2F1D-6163-476A-9554-6E37A749E2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riganti.Utils.Infrastructure.Core", "Riganti.Utils.Infrastructure.Core\Riganti.Utils.Infrastructure.Core.csproj", "{EBA57E7A-0552-4B0A-BF69-BD27CCE9F608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riganti.Utils.Infrastructure.EntityFramework", "Riganti.Utils.Infrastructure.EntityFramework\Riganti.Utils.Infrastructure.EntityFramework.csproj", "{DA0AB05C-4934-43CE-BC53-3BEB9FD8BFE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07FC82C6-6C8A-4F12-9D8C-A040DE488C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FC82C6-6C8A-4F12-9D8C-A040DE488C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FC82C6-6C8A-4F12-9D8C-A040DE488C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FC82C6-6C8A-4F12-9D8C-A040DE488C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18D478D-3276-455B-B9C3-CBFE6D561A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18D478D-3276-455B-B9C3-CBFE6D561A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18D478D-3276-455B-B9C3-CBFE6D561A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18D478D-3276-455B-B9C3-CBFE6D561A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFB2F1D-6163-476A-9554-6E37A749E2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFB2F1D-6163-476A-9554-6E37A749E2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFB2F1D-6163-476A-9554-6E37A749E2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFB2F1D-6163-476A-9554-6E37A749E2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA57E7A-0552-4B0A-BF69-BD27CCE9F608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA57E7A-0552-4B0A-BF69-BD27CCE9F608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA57E7A-0552-4B0A-BF69-BD27CCE9F608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA57E7A-0552-4B0A-BF69-BD27CCE9F608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0AB05C-4934-43CE-BC53-3BEB9FD8BFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0AB05C-4934-43CE-BC53-3BEB9FD8BFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0AB05C-4934-43CE-BC53-3BEB9FD8BFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0AB05C-4934-43CE-BC53-3BEB9FD8BFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://fi-muni.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BL\\BL.csproj
+		SccProjectName1 = BL
+		SccLocalPath1 = BL
+		SccProjectUniqueName2 = DAL\\DAL.csproj
+		SccProjectName2 = DAL
+		SccLocalPath2 = DAL
+		SccProjectUniqueName3 = Web\\Web.csproj
+		SccProjectName3 = Web
+		SccLocalPath3 = Web
+		SccProjectUniqueName4 = Riganti.Utils.Infrastructure.Core\\Riganti.Utils.Infrastructure.Core.csproj
+		SccProjectName4 = Riganti.Utils.Infrastructure.Core
+		SccLocalPath4 = Riganti.Utils.Infrastructure.Core
+		SccProjectUniqueName5 = Riganti.Utils.Infrastructure.EntityFramework\\Riganti.Utils.Infrastructure.EntityFramework.csproj
+		SccProjectName5 = Riganti.Utils.Infrastructure.EntityFramework
+		SccLocalPath5 = Riganti.Utils.Infrastructure.EntityFramework
+	EndGlobalSection
+EndGlobal

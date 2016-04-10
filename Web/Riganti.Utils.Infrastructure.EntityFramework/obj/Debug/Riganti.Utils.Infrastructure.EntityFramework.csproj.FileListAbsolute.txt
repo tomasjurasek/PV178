@@ -1,0 +1,12 @@
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\bin\Debug\Riganti.Utils.Infrastructure.EntityFramework.dll.config
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\bin\Debug\Riganti.Utils.Infrastructure.EntityFramework.dll
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\bin\Debug\Riganti.Utils.Infrastructure.EntityFramework.pdb
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\bin\Debug\Riganti.Utils.Infrastructure.Core.dll
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\bin\Debug\Riganti.Utils.Infrastructure.Core.pdb
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\obj\Debug\Riganti.Utils.Infrastructure.EntityFramework.csprojResolveAssemblyReference.cache
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\obj\Debug\Riganti.Utils.Infrastructure.EntityFramework.dll
+C:\Users\Tomas\OneDrive\prace\Muni\PV178\2016\Project\Web\Riganti.Utils.Infrastructure.EntityFramework\obj\Debug\Riganti.Utils.Infrastructure.EntityFramework.pdb
