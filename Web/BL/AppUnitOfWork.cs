@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace BL
 {
-    public class AppUnitOfWork : EntityFrameworkUnitOfWork
+    public class AppUnitOfWork : EntityFrameworkUnitOfWork, IAppUnitOfWork
     {
-        public new AppDbContext Context
+        public AppDbContext AppDbContext
         {
             get { return (AppDbContext)base.Context; }
         }

@@ -20,6 +20,10 @@ namespace BL
 
             Mapper.CreateMap<Product, ProductDTO>();
             Mapper.CreateMap<ProductDTO, Product>();
+
+
+
+            Mapper.CreateMap<AppUserDTO, AppUser>();
         }
     }
 }

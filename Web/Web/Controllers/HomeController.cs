@@ -8,6 +8,7 @@ using Web.Models;
 
 namespace Web.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly CategoryFacade categoryFacade;

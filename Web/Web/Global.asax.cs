@@ -1,4 +1,5 @@
 ﻿using BL;
+using Castle.Facilities.TypedFactory;
 using Castle.Windsor;
 using DAL;
 using DAL.Entities;
@@ -24,7 +25,7 @@ namespace Web
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            InitData();
+            //InitData();
 
             BootstrapContainer();
         }
@@ -32,6 +33,7 @@ namespace Web
         private static void BootstrapContainer()
         {
             container = new WindsorContainer();
+            container.AddFacility<TypedFactoryFacility>();
             container.Install(new Installer());
             container.Install(new DataInstaller());
 
@@ -39,31 +41,6 @@ namespace Web
             ControllerBuilder.Current.SetControllerFactory(controllerFactory);
         }
 
-        private void InitData()
-        {
-            using (var context = new AppDbContext())
-            {
-                if (!context.Categories.Any())
-                {
-
-
-                    List<Category> categories = new List<Category>
-                {
-                    new Category { Name= "Category 1" },
-                    new Category { Name= "Category 2" },
-                };
-
-                    List<Product> products = new List<Product>
-                {
-                    new Product { Name= "Product 1", Description ="Description of product 1", Price = 12.0, Categories = categories },
-                    new Product { Name= "Product 2", Description ="Description of product 2", Price = 30.0 }
-
-                };
-                    //context.Categories.AddRange(categories);
-                    context.Products.AddRange(products);
-                    context.SaveChanges();
-                }
-            }
-        }
+        
     }
 }

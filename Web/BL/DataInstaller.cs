@@ -2,6 +2,8 @@
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 using DAL;
+using DAL.Entities;
+using Microsoft.AspNet.Identity;
 using Riganti.Utils.Infrastructure.Core;
 using Riganti.Utils.Infrastructure.EntityFramework;
 using System;
@@ -24,7 +26,7 @@ namespace BL
                     .Instance(() => new AppDbContext())
                     .LifestyleTransient(),
 
-                Component.For<IUnitOfWorkProvider>()
+                Component.For<IAppUnitOfWorkProvider, IUnitOfWorkProvider>()
                     .ImplementedBy<AppUnitOfWorkProvider>()
                     .LifestyleSingleton(),
 
@@ -44,12 +46,25 @@ namespace BL
                     .ImplementedBy(typeof(EntityFrameworkRepository<,>))
                     .LifestyleTransient(),
 
+                Component.For<AppUserManager>()
+                    .LifestyleTransient(),
+
                 Classes.FromAssemblyContaining<AppFacadeBase>()
                     .BasedOn<AppFacadeBase>()
+                    .LifestyleTransient(),
+
+                
+
+                Component.For<IUserStore<AppUser, int>>()
+                    .ImplementedBy<AppUserStore>()
                     .LifestyleTransient()
+
+                
             );
 
-           Mapping.Create();
+            container.Resolve<IAppUnitOfWorkProvider>();
+
+            Mapping.Create();
 
         }
     }
