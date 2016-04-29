@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Riganti.Utils.Infrastructure.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BL.DTO
 {
-    public class ProductDTO
+    public class ProductDTO : IEntity<int>
     {
         public int Id { get; set; }
 
